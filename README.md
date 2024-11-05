@@ -28,11 +28,9 @@
 ```
 Этот файл определяет макет главного экрана приложения с TextView для отображения координат.
 
-MainActivity.java
 
-java
-Копировать код
-package ваш_пакет; // замените на ваш пакет
+```
+MainActivity.java
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -113,14 +111,15 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 }
+```
 Этот файл содержит основной код активити, который инициализирует GPS, запрашивает разрешения и обновляет TextView с текущими координатами.
 
-AndroidManifest.xml
 
+```
+AndroidManifest.xml
 xml
-Копировать код
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ваш_пакет">
+    package="android_app">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -138,6 +137,7 @@ xml
         
     </application>
 </manifest>
+```
 Этот файл манифеста указывает необходимые разрешения на доступ к местоположению и объявляет активити MainActivity как точку входа в приложение.
 
 Использование
