@@ -28,10 +28,9 @@
 ```
 Этот файл определяет макет главного экрана приложения с TextView для отображения координат.
 
+#### MainActivity.java
 
 ```
-MainActivity.java
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import android.Manifest;
@@ -114,10 +113,9 @@ public class MainActivity extends AppCompatActivity {
 ```
 Этот файл содержит основной код активити, который инициализирует GPS, запрашивает разрешения и обновляет TextView с текущими координатами.
 
+#### AndroidManifest.xml
 
 ```
-AndroidManifest.xml
-xml
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="android_app">
 
