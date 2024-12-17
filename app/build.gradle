@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.android_kurs"
-        minSdk 24
+        minSdk 29
         targetSdk 34
         versionCode 1
         versionName "1.0"
@@ -29,6 +29,9 @@ android {
 }
 
 dependencies {
+
+    implementation libs.retrofit
+    implementation libs.gson
 
     implementation libs.appcompat
     implementation libs.material
